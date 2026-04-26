@@ -1,0 +1,8 @@
+.codex
+.obsidian/
+__pycache__/
+*.pyc
+
+# Redundant notebook exports; parquet versions are already tracked.
+notebooks/train.csv
+notebooks/test.csv
