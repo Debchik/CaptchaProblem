@@ -2,7 +2,22 @@
 .obsidian/
 __pycache__/
 *.pyc
+*.ipynb_checkpoints/
 
 # Redundant notebook exports; parquet versions are already tracked.
 notebooks/train.csv
 notebooks/test.csv
+
+# Generated experiment caches and local smoke-test artifacts.
+outputs/complex_cache/
+outputs/smoke_cache/
+outputs/smoke_full_cache/
+outputs/smoke_data/
+outputs/smoke_*.csv
+outputs/smoke_*.json
+outputs/*_metrics.json
+outputs/*_run_*.log
+submission_complex.csv
+
+# Personal interview notes: intentionally local only.
+docs/interview_notes_ru.md

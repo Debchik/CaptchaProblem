@@ -3,6 +3,12 @@
 ## Overview
 Log of hypothesis-driven experiments for the CAPTCHA competition.
 
+## Competition Outcome
+- Final leaderboard result: **11th place out of 24** in the [Kaggle competition](https://www.kaggle.com/competitions/captcha-behavioural-bot-detection/leaderboard).
+- Submitted approach: pruned `HistGradientBoostingClassifier` on hand-crafted session and trajectory features.
+- Selection rationale: the tree model matched the best validated local result and was more reliable than the neural/template exploration on this small labelled dataset.
+- Artifact: `outputs/submission.csv`.
+
 ## Leaderboard
 
 | Exp | Hypothesis | Model / Features | CV pAUC@0.035 | Notes |
